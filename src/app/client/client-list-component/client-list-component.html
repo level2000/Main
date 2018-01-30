@@ -1,0 +1,18 @@
+<div class="form-group">
+  <label for="clientSelect">Clients ({{this.count ? this.count : 'working on it...'}}):</label>
+  <select class="form-control" id="clientSelect" name="clientSelect" [(ngModel)]="selectedClientId" (change)="selectClient();">
+    <option>Please select a client</option>
+    <option *ngFor="let c of clients" value="{{c.Id}}">{{c.longName}} - {{c.Id}}</option>
+  </select>
+</div>
+
+<div class="form-group" *ngIf="selectedClient">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      Assignments for client #{{selectedClient.Id}} {{selectedClient.longName}}
+    </div>
+    <div class="panel-body">
+      <app-assignment-list [clientId]="selectedClientId"></app-assignment-list>
+    </div>
+  </div>
+</div>
