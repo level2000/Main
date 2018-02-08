@@ -1,0 +1,332 @@
+/*
+    List of colors 
+    available for use
+    #00539B = Blue
+    #fff = White
+    #FBB040 = Yellow
+    #A2AAAD = Dark Grey
+    #E3E5E7 = Soft Grey
+*/
+
+html {
+    font: 13px Avenir,"Century Gothic", Arial, sans-serif;
+    color: #000;
+}
+
+footer {
+    padding: .5em;
+    text-align: center;
+    font-size: 12px;
+}
+
+fieldset {
+    margin-top: 1.5em;
+    border: 2px solid #A2AAAD;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    margin-bottom: .5em;
+}
+
+a {
+    color: #A2AAAD;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        color: #A2AAAD;
+        text-decoration: none;
+    }
+
+    a.lnkNav:link,
+    a.lnkNav:visited,
+    a.lnkNav:active {
+        color: #fff;
+    }
+
+    a.lnkNav:hover {
+        color: #A2AAAD;
+    }
+
+    a.lnkToTheTop:link,
+    a.lnkToTheTop:visited,
+    a.lnkToTheTop:hover,
+    a.lnkToTheTop:active {
+        color: #A2AAAD;
+    }
+
+    a.lnkPrivacy:link,
+    a.lnkPrivacy:visited,
+    a.lnkPrivacy:hover,
+    a.lnkPrivacy:active {
+        color: #fff;
+        text-decoration: none;
+    }
+
+header > div.container {
+    margin-left: .1em;
+}
+
+button.navbar-toggle.collapsed {
+    border: 1px solid #fff !important;
+    margin-top: 1.5em;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+button.navbar-toggle {
+    border: 1px solid #fff !important;
+    margin-top: 1.5em;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+div.page-header > p > span {
+    text-align: right;
+}
+
+.navbar {
+    color: #fff;
+    background: #00539B;
+}
+
+.icon-bar {
+    color: #fff !important;
+    background: #fff !important;
+}
+
+.tab-pane {
+    padding: 2em;
+}
+
+.btn-primary {
+    background-color: #00539B;
+    border-color: #00539B;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #00539B;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #00539B;
+    border-color: #00539B;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #00539B;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: #00539B;
+    border-color: #00539B;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #00539B;
+    border-color: #00539B;
+}
+
+.alert-info {
+    color: #00539b;
+    background-color: #f0f0f0;
+    border-color: #00539b;
+}
+
+.alert-warning {
+    color: #f6b242;
+    background-color: #f0f0f0;
+    border-color: #f6b242;
+}
+
+.alert-success {
+    color: green;
+    background-color: #f0f0f0;
+    border-color: green;
+}
+
+.alert-danger {
+    color: red;
+    background-color: #f0f0f0;
+    border-color: red;
+}
+
+.progress-bar {
+    background-color: #00539B;
+}
+
+.well {
+    background-color: #E3E5E7;
+    border: 1px solid #A2AAAD;
+}
+
+.lexwell {
+    color: #00539B;
+    background-color: #FBB040;
+    border: 1px solid #00539B;
+}
+
+.jumbotron {
+    background-color: #A2AAAD;
+}
+
+.breadcrumb {
+    background-color: #E3E5E7;
+}
+
+.badge {
+    background-color: #A2AAAD;
+}
+
+a.list-group-item:hover,
+button.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:focus {
+    color: #000;
+    background-color: #E3E5E7;
+}
+
+.panel-default > .panel-heading {
+    color: #000;
+    background-color: #E3E5E7;
+    border-color: #A2AAAD;
+}
+
+.panel-footer {
+    background-color: #E3E5E7;
+    border-top: 1px solid #A2AAAD;
+}
+
+.panel-default {
+    border-color: #A2AAAD;
+}
+
+.list-group-item {
+    border: 1px solid #A2AAAD;
+}
+
+#mainContent {
+    margin-top: 10em;
+    margin-left: 0;
+}
+
+#navbar > ul > li > a {
+    color: #fff;
+}
+#navbar > ul > li.active > a {
+    color: #00539B;
+}
+
+#typography {
+    margin-bottom: 5em;
+}
+
+#tabs {
+    margin-bottom: 0;
+}
+
+#pills {
+    margin-bottom: 2em;
+}
+
+#breadcrumbs {
+    margin-bottom: 2em;
+}
+
+@media (max-width: 320px) {
+
+    /* I.E. IPHONE 4 or 5 PORTRAIT */
+
+    main {
+        margin-top: 5em;
+    }
+
+    header > div > span {
+        display: none;
+    }
+
+    footer {
+        padding: .5em;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    /*button.navbar-toggle.collapsed {
+        border: 1px solid #fff !important;
+        margin-top: 1.5em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    button.navbar-toggle {
+        border: 1px solid #fff !important;
+        margin-top: 1.5em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }*/
+
+    #mainContent {
+        margin-top: 4em;
+    }
+
+    #logo {
+        max-width: 8em;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 568px) {
+
+    /* I.E. IPHONE 4 or 5 LANDSCAPE */
+
+    main {
+        margin-top: 0;
+    }
+
+    header > div > span {
+        display: none;
+    }
+
+    footer {
+        padding: .5em;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    /*button.navbar-toggle.collapsed {
+        border: 1px solid #fff !important;
+        margin-top: 1.5em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    button.navbar-toggle {
+        border: 1px solid #fff !important;
+        margin-top: 1.5em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }*/
+
+    #mainContent {
+        margin-top: 6em;
+    }
+
+    #logo {
+        max-width: 9em;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 569px) {
+
+    /* I.E. Desktop */
+
+    #logo {
+        margin-top: 1em;
+        max-width: 18em;
+    }
+}

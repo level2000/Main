@@ -25,14 +25,18 @@ export class AuthGuard implements CanActivate {
         return this.oidcSecurityService.getIsAuthorized()
         .map((isAuthorized: boolean) => {
             if ( isAuthorized ) {
-                return true;
+                console.log(state.url);
+                return true;                
             }
             this.redirectUrl = state.url;
             console.log('auth guard: redirect to login:');
             // this.oidcSecurityService.authorize();
-            this.router.navigate(['/autologin'], {queryParams: { returnUrl: state.url }});
+            this.router.navigate(['autologin'], {queryParams: { returnUrl: state.url }});
+            console.log(state.url);
             return false;
         });
+
+        
 
         // return this.getAuthorized(state.url);
     }

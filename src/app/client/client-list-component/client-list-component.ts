@@ -9,8 +9,7 @@ import 'rxjs/add/operator/switchMap';
 
 @Component({
   selector: 'app-client-list-component',
-  templateUrl: './client-list-component.html',
-  styleUrls: ['./client-list-component.css']
+  templateUrl: './client-list-component.html'
 })
 export class ClientListComponent implements OnInit {
 

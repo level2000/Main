@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { OidcSecurityService } from 'angular-auth-oidc-client';
 
+
 @Component({
     selector: 'app-navigation',
     templateUrl: 'navigation.component.html'
@@ -53,5 +54,6 @@ export class NavigationComponent implements OnInit, OnDestroy {
 
     logout() {
         this.oidcSecurityService.logoff();
+        
     }
 }

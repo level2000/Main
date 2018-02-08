@@ -1,0 +1,13 @@
+
+
+<div *ngIf="isAuthorized">
+  <h2>Welcome</h2>
+<p><b>Name:</b></p>
+<p>{{name}}</p>
+<p><b>Email:</b></p>
+<p>{{email}}</p>
+</div>
+
+<div *ngIf="!isAuthorized">        
+<p><b>Please login.</b></p>
+</div>
