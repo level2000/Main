@@ -1,0 +1,14 @@
+{
+
+  // Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+
+    // exclude .js and .js.map files, when in a TypeScript project
+    "**/*.js": { "when": "$(basename).ts"},
+    "**/*.js.map": true,
+    "**/*.spec.ts": true
+  }
+
+}
